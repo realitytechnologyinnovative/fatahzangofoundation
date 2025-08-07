@@ -1,0 +1,36 @@
+# Site settings
+title: FATAH ZANGO Foundation
+description: "Building Resilient Communities Through Inclusive Development and Lifelong Support"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://fatahzangofoundation.com"
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  services:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+
+# Site data
+organization:
+  name: "FATAH ZANGO Foundation"
+  mandate: "Advance education, skills, and wellbeing nationwide."
+  vision: "A self-reliant, prosperous Nigeria through empowered citizens."
+  mission: "Deliver innovative programs that uplift individuals and communities."
+  values: "Integrity · Inclusivity · Innovation · Impact"

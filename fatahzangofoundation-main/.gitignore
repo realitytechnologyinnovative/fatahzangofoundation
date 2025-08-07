@@ -1,0 +1,51 @@
+# Ignore site build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ignore node modules if using npm packages
+node_modules/
+
+# Ignore Ruby-specific files
+vendor/
+.bundle/
+log/
+tmp/
+*.gem
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# VS Code workspace settings
+.vscode/
+
+# Ignore environment files
+.env
+
+# Ignore backup/swap files
+*~
+*.swp
+*.bak
+
+# Ignore compiled files
+*.class
+*.o
+*.so
+
+# Ignore by-products of testing
+coverage/
+test/tmp/
+test/version_tmp/
+spec/tmp/
+spec/fixtures/
+
+# Ignore bundler config
+Gemfile.lock
+
+# Ignore output from build tools
+*.log
